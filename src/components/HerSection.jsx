@@ -1,6 +1,9 @@
 import React from 'react';
-import heroImg from '../assets/hero1.png'
 import { AiOutlineSearch } from "react-icons/ai";
+
+//image import
+import heroImg from '../assets/hero1.png';
+
 
 const HerSection = () => {
    return (
@@ -22,8 +25,9 @@ const HerSection = () => {
                   </form>
 
                </div>
-               <img src={heroImg} alt="" />
+               <img src={heroImg} alt="heoimg" className='md:order-last order-first'/>
          </div>
+                
          
       </div>
    );
