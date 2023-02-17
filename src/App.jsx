@@ -4,6 +4,8 @@ import Companies from './components/Companies'
 import Courses from './components/Courses'
 import HerSection from './components/HerSection'
 import Navbar from './components/Navbar'
+import  './App.css'
+import Acheivement from './components/Acheivement'
 
 function App() {
  
@@ -14,6 +16,7 @@ function App() {
     <HerSection/>
     <Companies/>
     <Courses/>
+    <Acheivement/>
     
     </BrowserRouter>
     
